@@ -7,7 +7,9 @@
 'use strict';
 
 var pem = require('pem');
+
 var fs = require('fs');
+
 var path = require('path');
 
 var keyPath = path.resolve(__dirname, '../config/key.pem');
