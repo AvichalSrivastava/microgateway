@@ -16,3 +16,4 @@ RUN npm install --prod --quiet --depth 0
 ENV NODE_ENV production
 
 CMD [ "node", "index.js" ]
+
